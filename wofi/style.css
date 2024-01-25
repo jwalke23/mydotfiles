@@ -1,0 +1,44 @@
+@import url("customcolors.css");
+
+* {
+    border: none;
+    font-family: JetbrainsMono  Nerd Font;
+    font-size: 15px;
+}
+
+#window {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid #bc7e97;
+    border-radius: 10px;
+}
+
+#outer-box {
+    background-color: transparent;
+    color: #ffffff;
+    padding: 10px 10px 10px 10px;
+}
+
+#inner-box {
+    background-color: transparent;
+    padding: 5px 5px 5px 5px;
+    color: #ffffff;
+}
+
+#input {
+    background-color: transparent;
+    color: #bc7e97;
+}
+
+#entry {
+    color: #bc7e97;
+}
+
+#entry:selected {
+    background-color: #bc7e97;
+}
+
+#entry:selected #text {
+    background-color: #bc7e97;
+    color: #eff1f5;
+}
+
